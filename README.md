@@ -1,5 +1,21 @@
 # Context-Aware Document Q&A Bot
-
+##workflow
+PDF Upload / Paste Text
+          ↓
+     Text Extraction
+          ↓
+      Text Chunking
+          ↓
+   Vector Embeddings
+          ↓
+        ChromaDB
+          ↓
+ Similarity Retrieval
+          ↓
+       Groq LLM
+          ↓
+     Final Answer
+     
 ## Features
 
 - PDF Upload
